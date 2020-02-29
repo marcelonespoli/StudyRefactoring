@@ -1,16 +1,18 @@
-﻿using System;
+﻿using Solution2.Interfaces;
+using System;
 using System.Text;
 
 namespace Solution2.Services
 {
-    public class PortugalEmployee : Calculation
+    public class PortugalEmployee : ICalculation
     {
+        private double GrossAumont { get; set; }
         private double HealthInsurance { get; set; }
         private double Revenue { get; set; }
         private double Pension { get; set; }
         private double NetAumont { get; set; }
 
-        public override void CalculatePayment(double hourValue, double monthlyHoursWorked)
+        public void CalculatePayment(double hourValue, double monthlyHoursWorked)
         {
             GrossAumont = hourValue * monthlyHoursWorked;
 
@@ -57,7 +59,7 @@ namespace Solution2.Services
             NetAumont = GrossAumont - HealthInsurance - Revenue - Pension;
         }
 
-        public override void PrintDetailsOnScreen()
+        public void PrintDetailsOnScreen()
         {
             var sb = new StringBuilder();
 

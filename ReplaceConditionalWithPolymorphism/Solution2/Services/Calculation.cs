@@ -5,14 +5,8 @@ using System.Reflection;
 
 namespace Solution2.Services
 {
-    public abstract class Calculation : ICalculation
+    public abstract class Calculation
     {
-        protected double GrossAumont { get; set; }
-
-        public abstract void CalculatePayment(double hourValue, double monthlyHoursWorked);
-
-        public abstract void PrintDetailsOnScreen();
-
         public class Factory
         {
             private static ICalculation Service { get; set; }
