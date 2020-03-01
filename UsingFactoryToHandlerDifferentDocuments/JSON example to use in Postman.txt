@@ -1,0 +1,43 @@
+
+
+URL
+---------------------------------------------------
+https://localhost:44355/api/document
+
+
+
+Payment
+---------------------------------------------------
+{
+	"documentType": "Payment",
+	"data": {
+		"employeeName": "Brian",
+		"HourValue": 10
+	}
+}
+
+
+
+
+Invoice
+---------------------------------------------------
+{
+	"documentType": "Invoice",
+	"data": {
+		"Value": "2.500",
+		"Date": "25/03/2019"
+	}
+}
+
+
+
+
+Agreement
+---------------------------------------------------
+{
+	"documentType": "Agreement",
+	"data": {
+		"Title": "Services",
+		"Details": "Quisque tempor congue velit, eget venenatis dolor. Nunc cursus lacus mauris, quis dapibus nisi malesuada cursus. Curabitur non pharetra purus. Etiam vitae enim lectus. Proin tempus neque quam, et lobortis enim dictum at. Nullam cursus augue id orci imperdiet, vel porttitor ligula fermentum. Nulla facilisi. "
+	}
+}

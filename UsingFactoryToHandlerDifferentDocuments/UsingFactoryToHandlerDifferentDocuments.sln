@@ -5,11 +5,16 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service.Api", "1 - Service.Api", "{1EA0DE29-1459-48BF-85E6-67F00EBDB834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.APi", "Solution.APi\Solution.APi.csproj", "{3CB4FE8E-1249-4F5C-99CD-99323AC1A283}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.APi", "Solution.APi\Solution.APi.csproj", "{3CB4FE8E-1249-4F5C-99CD-99323AC1A283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Business", "Solution.Business\Solution.Business.csproj", "{A5174C7A-83C7-47DC-B556-6D6B08C06E1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Business", "Solution.Business\Solution.Business.csproj", "{A5174C7A-83C7-47DC-B556-6D6B08C06E1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.Application", "Solution.Application\Solution.Application.csproj", "{C98A1946-8184-4406-8DB7-8412FE9F34CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solution.Application", "Solution.Application\Solution.Application.csproj", "{C98A1946-8184-4406-8DB7-8412FE9F34CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E27117DD-CF30-4450-8862-92AD85F0C4CF}"
+	ProjectSection(SolutionItems) = preProject
+		JSON example to use in Postman.txt = JSON example to use in Postman.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
