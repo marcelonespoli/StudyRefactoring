@@ -1,0 +1,16 @@
+{
+  "documents": [
+    {
+      "type": "payment",
+      "assemblyType": "Solution.Business.PaymentHandler"
+    },
+    {
+      "type": "invoice",
+      "assemblyType": "Solution.Business.InvoiceHandler"
+    },
+    {
+      "type": "agreement",
+      "assemblyType": "Solution.Business.AgreementHandler"
+    }
+  ]
+}
