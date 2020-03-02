@@ -1,0 +1,31 @@
+ Print a payslip fro each country depending the location of the employee
+
+         Given the hour value and the amount hours worked on the month, calculate the NET value of the salary 
+         and print the discounts done on the output as example below:
+
+         "
+         Location of employee in Portugal
+         value hour = 10
+         worked hours monthy = 40
+         Groos amount = 400
+         
+         Deduced values
+         IR = 
+         Pension = 
+         Health Insurance = 
+         "
+
+         Base values for deductions 
+         --------------------------------------------------------------
+         - Portugal: 
+         IR 5% until 500 after 2% of the rest of the aumont
+         Pension 6% 
+         Health insurance 5%
+
+        - Espanha:
+         IR 3% until 650 after 4% of the rest of the aumont
+         Health insurance 7.5%
+
+        - Italy: 
+         IR 6% until 650 after 3.5% of the rest of the aumont
+         Pension 6% 
